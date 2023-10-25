@@ -1,6 +1,6 @@
 # Capstone-Project-Kelompok-5
 1. Nama: Achmad Roffi Thoriq
-   NIM : 2209116053
+   NIM : 2209116052
 2. Nama: Nur Shafa Azizah
    NIM : 2209116057
 # Toko Sembako
