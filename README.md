@@ -10,6 +10,10 @@ Tujuan dari proyek ini adalah untuk mengembangkan sebuah aplikasi manajemen yang
 
 Selama perjalanan proyek ini, kami telah menghadapi tantangan dan belajar banyak. Kami telah berusaha untuk mengaplikasikan pengetahuan kami ke dalam proyek yang bermanfaat ini. Kami berharap bahwa proyek ini akan memberikan gambaran yang jelas tentang konsep, desain, dan hasil yang telah kami capai dalam pengembangan aplikasi manajemen Toko Sembako. Terima kasih kepada semua pihak yang telah mendukung dan memberikan inspirasi selama proyek ini. Kami harap aplikasi ini akan membantu pemilik toko sembako dalam menjalankan bisnis mereka dengan lebih efisien dan memberikan layanan yang lebih baik kepada pelanggan.
 # Flowchart
+![Flowchart PBO](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/6f62e465-ce1b-4870-8d7d-4c5a7e81f503)
+
 # Hirarki Kelas
+![hirarki](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/2fd44619-193d-4370-be45-09b993b05ac6)
+
 # Source Code
 # Output
