@@ -15,5 +15,6 @@ Selama perjalanan proyek ini, kami telah menghadapi tantangan dan belajar banyak
 # Hirarki Kelas
 ![hirarki](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/2fd44619-193d-4370-be45-09b993b05ac6)
 
+Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subkelas, yaitu "Makanan" dan "Non-Makanan". Dengan memakai konsep inheritance (pewarisan) memungkinkan "Makanan" dan "Non-Makanan" untuk mewarisi atribut yang dimiliki oleh kelas "Barang" tanpa perlu mendefinisikannya ulang. Dengan kata lain, atribut dan metode yang terdefinisi di kelas "Barang" dapat digunakan oleh kedua subkelas tersebut, yang membuat kode menjadi lebih efisien dan mudah dikelola. Inheritance adalah salah satu prinsip fundamental dalam pemrograman berorientasi objek yang memungkinkan penggunaan kembali kode dan membantu dalam menciptakan hierarki kelas yang terstruktur.
 # Source Code
 # Output
