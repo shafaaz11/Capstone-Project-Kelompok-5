@@ -35,5 +35,5 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
    - Input Pelanggan
    - Transaksi
    - Struk
-   - 
+     
 # Output
