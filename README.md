@@ -9,8 +9,9 @@ Dalam laporan proyek akhir mata kuliah pemrograman berorientasi objek kelompok k
 Tujuan dari proyek ini adalah untuk mengembangkan sebuah aplikasi manajemen yang akan membantu pemilik toko sembako dalam mengelola operasional sehari-hari mereka. Toko sembako adalah bisnis penting dalam masyarakat yang menyediakan kebutuhan pokok sehari-hari. Oleh karena itu, kami berupaya untuk menciptakan alat yang akan mempermudah pemilik toko dalam mencatat transaksi, mengelola data karyawan, pelanggan, dan barang. Proyek ini akan menjelaskan struktur hierarki kelas dalam aplikasi, serta memberikan gambaran singkat tentang alur kerja aplikasi dan bagaimana kami mengimplementasikan fitur-fitur seperti login, manajemen data, dan antarmuka pengguna (GUI) yang mudah digunakan.
 
 Selama perjalanan proyek ini, kami telah menghadapi tantangan dan belajar banyak. Kami telah berusaha untuk mengaplikasikan pengetahuan kami ke dalam proyek yang bermanfaat ini. Kami berharap bahwa proyek ini akan memberikan gambaran yang jelas tentang konsep, desain, dan hasil yang telah kami capai dalam pengembangan aplikasi manajemen Toko Sembako. Terima kasih kepada semua pihak yang telah mendukung dan memberikan inspirasi selama proyek ini. Kami harap aplikasi ini akan membantu pemilik toko sembako dalam menjalankan bisnis mereka dengan lebih efisien dan memberikan layanan yang lebih baik kepada pelanggan.
+
 # Flowchart
-![Flowchart PBO fiks](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/673d6bce-ee44-49bd-9a71-1953b7423396)
+![Capstone](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/86495276-1d81-4873-844f-d43041cc548b)
 
 
 # Hirarki Kelas
