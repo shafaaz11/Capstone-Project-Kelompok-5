@@ -73,5 +73,5 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
 
    <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/0b09295e-a683-4df2-a8fe-3ad295a6aa7c">
 
-   Ini adalah tampilan dari struk transaksi yang dilakukan oleh pelanggan. Menampilkan id transaksi agar karyawan tahu transaksi yang terinput ditoko, kemudian ada id karyawan dimana itu menjelaskan bahwa karyawan tersebut yang melayani transaksi, kemudian akan menampilkan nama dan harga barang yang dibeli oleh pelanggan. 
+   Ini adalah tampilan dari struk transaksi yang dicetak. Menampilkan id transaksi agar karyawan tahu transaksi yang terinput ditoko, kemudian ada id karyawan dimana itu menjelaskan bahwa karyawan tersebut yang melayani transaksi, kemudian akan menampilkan nama dan harga barang yang dibeli oleh pelanggan. 
    
