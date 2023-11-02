@@ -23,6 +23,7 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
 1. Database
 2. Entity
    - Karyawan
+   - pppppppppppppppppppppppppppp
    - Pelanggan
    - Transaksi
    - Barang
