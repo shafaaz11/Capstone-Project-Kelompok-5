@@ -51,4 +51,27 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
 
    Ini adalah tampilan jika karyawan belum memliki akun, maka karyawan disuruh untuk membuat akun terlebih dahulu dengan menginputkan nama dan id karyawan. Jika sudah maka bisa klik simpan agar data tersimpan dan kemudian login kembali dengan menggunakan akun yang telah dibuat tadi.
    
-4. 
+3. Menu Karyawan
+
+   <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/46205676-177b-4f9d-a161-43b786187f73">
+
+   Ini adalah Menu untuk Karyawan jika berhasil login, pada menu karyawan ini memiliki dua fitur yaitu melayani transaksi dan mengelola barang
+
+4. Transaksi (Input Pelanggan)
+
+   <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/692a8d32-2b49-41bb-9379-56c43ff94c0b">
+
+   Ini adalah tampilan dari fitur transaksi, dimana sebelum menginputkan transaksi dari pelanggan karyawan disuruh untuk menginput nama dari pelanggan tersebut, dan mengklik tombol selanjutnya untuk dapat menginputkan transaksi
+
+5. Transaksi (Pilih Barang)
+
+   <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/d3ead66d-52b7-45df-9347-e3a52aca789e">
+
+   Setelah menginput nama pelanggan karyawan dapat memilih jenis barang yang akan dibeli oleh pelanggan dengan memilih id barang, kemudian klik tombol Masukkan agar transaksi dapat dicetak.
+
+6. Struk Transaksi
+
+   <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/0b09295e-a683-4df2-a8fe-3ad295a6aa7c">
+
+   Ini adalah tampilan dari struk transaksi yang dilakukan oleh pelanggan. Menampilkan id transaksi agar karyawan tahu transaksi yang terinput ditoko, kemudian ada id karyawan dimana itu menjelaskan bahwa karyawan tersebut yang melayani transaksi, kemudian akan menampilkan nama dan harga barang yang dibeli oleh pelanggan. 
+   
