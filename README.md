@@ -23,7 +23,6 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
 1. Database
 2. Entity
    - Karyawan
-   - pppppppppppppppppppppppppppp
    - Pelanggan
    - Transaksi
    - Barang
@@ -73,5 +72,16 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
 
    <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/0b09295e-a683-4df2-a8fe-3ad295a6aa7c">
 
-   Ini adalah tampilan dari struk transaksi yang dicetak. Menampilkan id transaksi agar karyawan tahu transaksi yang terinput ditoko, kemudian ada id karyawan dimana itu menjelaskan bahwa karyawan tersebut yang melayani transaksi, kemudian akan menampilkan nama dan harga barang yang dibeli oleh pelanggan. 
+   Ini adalah tampilan dari struk transaksi yang dicetak. Menampilkan id transaksi agar karyawan tahu transaksi yang terinput ditoko, kemudian ada id karyawan dimana itu menjelaskan bahwa karyawan tersebut yang melayani transaksi, kemudian akan menampilkan nama dan harga barang yang dibeli oleh pelanggan sesuai dengan id barang yang dipilih sebelumnya.
+
+7. Menu Barang
+
+   <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/66783d8a-59e1-4b90-88cf-9113c9fb755f">
+
+   Ini adalah tampilan dari Menu Barang dimana karyawan dapat mengelola barang seperti menambahkan data barang, melihat data barang yang ada di toko, mengedit kebutuhan barang jika sewaktu waktu terdapat perubahan harga ataupun lainnya, dan dapat menghapus data barang apabila toko tidak menjual lagi barang tersebut. 
    
+9. Menu Barang (Create)
+
+   <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/894fbb9e-ea86-490c-85c9-5247eb257c2a">
+
+   Pada 
