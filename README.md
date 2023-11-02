@@ -84,4 +84,12 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
 
    <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/894fbb9e-ea86-490c-85c9-5247eb257c2a">
 
-   Pada 
+   Pada fitur tambah barang, karyawan dapat menambahkan jenis barang baru agar dapat terdata dalam pencatatan toko sembako
+
+10. Menu Barang (Read)
+
+    <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/a3cc82e3-dd67-491f-baf7-76c905492b6d">
+   
+   <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/5cbd541d-fa9a-4ba1-9504-85d0d3cd9498">
+
+   Pada fitur lihat barang, karyawan dapat melihat barang barang yang tersedia ditoko dan dapat melihat detail dari barang barang tersebut. Pada fitur ini jenis barang dapat dibedakan menjadi dua jenis yaitu Makanan dan Non-Makanan, jadi jika karyawan ingin melihat barang dengan jenis Makanan maka dapat memilih yang Makanan kemudia klik read dan akan menampilkan barang barang yang berjeniskan Makanan, begitupun juga dengan barang yang berjenis Non-Makanan.
