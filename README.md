@@ -93,3 +93,19 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
     <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/5cbd541d-fa9a-4ba1-9504-85d0d3cd9498">
     
     Pada fitur lihat barang, karyawan dapat melihat barang barang yang tersedia ditoko dan dapat melihat detail dari barang barang tersebut. Pada fitur ini jenis barang dapat dibedakan menjadi dua jenis yaitu Makanan dan Non-Makanan, jadi jika karyawan ingin melihat barang dengan jenis Makanan maka dapat memilih yang Makanan kemudia klik read dan akan menampilkan barang barang yang berjeniskan Makanan, begitupun juga dengan barang yang berjenis Non-Makanan.
+
+11. Menu Barang (Update)
+
+    <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/25eb3c1e-0a6a-4066-9c41-425a4a0ec4e0">
+
+   Pada fitur update barang, karyawan dapat langsung memilih barang yang ingin diedit detailnya dengan mengklik barang tersebut.
+
+   <img width="254" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/aec0a365-4ef7-4e5f-9ab9-ac419d9b9f8f">
+
+   Kemudian karyawan dapat mengedit detail lainnya seperti pada Makanan, karyawan dapat mengisi tanggal kadaluarsa dengan tanggal terbaru karena mungkin saja barang makanan ini adalah stok baru dan harus di edit untuk tanggal kadaluarsanya.
+
+12. Menu Barang (Delete)
+
+    <img width="489" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/f0e26736-05c7-47f6-aaa0-6866af71208a">
+    
+    Pada fitur delete barang, karyawan dapat langsung memilih barang yang ingin dihapus dengan mengklik barang tersebut lalu pilih delete, maka barang akan langsung terhapus.
