@@ -40,8 +40,15 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
      
 # Output
 1. Menu Login
+   
    <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/fda489da-704c-4178-b10d-3adad85f8bba">
 
-   Ini adalah tampilan awal aplikasi yang kami buat
+   Ini adalah tampilan awal aplikasi yang kami buat yaitu menu login untuk karyawan, pada menu ini karyawan dapat login dengan menginputkan nama dan juga id mereka, jika karyawan belum memiliki akun, maka bisa memilih pilihan untuk register terlebih dahulu agar memiliki akun dan dapat login kembali
 
-3. Register
+2. Register
+
+   <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/d78c8aa4-39a1-4403-8b44-1444a6abffc0">
+
+   Ini adalah tampilan jika karyawan belum memliki akun, maka karyawan disuruh untuk membuat akun terlebih dahulu dengan menginputkan nama dan id karyawan. Jika sudah maka bisa klik simpan agar data tersimpan dan kemudian login kembali dengan menggunakan akun yang telah dibuat tadi.
+   
+4. 
