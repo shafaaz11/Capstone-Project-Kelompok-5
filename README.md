@@ -39,3 +39,9 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
    - Struk
      
 # Output
+1. Menu Login
+   <img width="392" alt="image" src="https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/127502125/fda489da-704c-4178-b10d-3adad85f8bba">
+
+   Ini adalah tampilan awal aplikasi yang kami buat
+
+3. Register
