@@ -53,7 +53,7 @@ Kelas "Pelanggan" adalah tempat untuk menyimpan informasi terkait pelanggan. Dal
 
 ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/5fa11d83-b057-4794-9106-d5afed6fc28d)
 
-Kelas "Transaksi" digunakan untuk menyimpan informasi tentang transaksi. Ini mencakup ID transaksi, ID karyawan terlibat, ID pelanggan terlibat, ID barang terlibat, dan tanggal transaksi. Kelas ini memiliki variabel anggota dan metode yang memungkinkan akses dan penyimpanan data transaksi. Ada metode "insertTransaksi" yang memungkinkan penggunaan data transaksi untuk dimasukkan ke dalam database. Ini melibatkan pembuatan objek "Transaksi" dengan data yang diberikan, membuat pernyataan SQL untuk menyimpan data ini, dan menjalankannya menggunakan objek database. Keseluruhan, kelas "Transaksi" memfasilitasi manajemen data transaksi dan interaksi dengan database.
+Kelas "Transaksi" digunakan untuk menyimpan informasi tentang transaksi. Ini mencakup ID transaksi, ID karyawan terlibat, ID pelanggan terlibat, ID barang terlibat, dan tanggal transaksi. Kelas ini memiliki variabel anggota dan metode yang memungkinkan akses dan penyimpanan data transaksi. Adaa metode "insertTransaksi" yang memungkinkan penggunaan data transaksi untuk dimasukkan ke dalam database. Ini melibatkan pembuatan objek "Transaksi" dengan data yang diberikan, membuat pernyataan SQL untuk menyimpan data ini, dan menjalankannya menggunakan objek database. Keseluruhan, kelas "Transaksi" memfasilitasi manajemen data transaksi dan interaksi dengan database.
 
 4. Kelas Barang
    
