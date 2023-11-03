@@ -24,29 +24,30 @@ Dalam hierarki kelas di atas, "Barang" adalah kelas utama yang memiliki dua subk
 Kelas-kelas yang ada pada program
 
 # Penjelasan Codingan
-1. Database
-2. Entity
-   - Karyawan
-     ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/9a5f811b-f9ba-4526-b1ed-d88bd42faf4c)
-     
-     Kelas "Karyawan" adalah tempat semua informasi terkait karyawan disimpan. Dalam kelas ini, terdapat dua atribut (variabel anggota), yaitu "idKaryawan" dan "namaKaryawan," yang digunakan untuk menyimpan data karyawan. Kedua atribut ini berjenis String, sehingga dapat menyimpan teks. Terdapat juga atribut statis bernama "arrayKaryawan" yang berjenis ArrayList. Atribut ini digunakan untuk menyimpan daftar objek karyawan. Atribut statis berarti bahwa semua objek kelas Karyawan menggunakan salinan yang sama dari "arrayKaryawan," sehingga semua objek dapat mengakses daftar karyawan yang sama. Terdapat konstruktor dalam kelas ini, yaitu "Karyawan," yang digunakan untuk membuat objek karyawan. Konstruktor ini menerima dua parameter, yaitu "idKaryawan" dan "namaKaryawan," yang digunakan untuk menginisialisasi atribut karyawan terkait.
-     
-     Kelas ini juga memiliki dua metode:
-     1. "getIdKaryawan()" digunakan untuk mendapatkan nilai dari atribut "idKaryawan" dari objek karyawan.
-     2. "getNamaKaryawan()" digunakan untuk mendapatkan nilai dari atribut "namaKaryawan" dari objek karyawan.
 
-     ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/ca11781e-160f-4463-aeb7-81ab7fe64005)
-     
-     Metode "insertKaryawan" digunakan untuk memasukkan data karyawan baru ke dalam database. Parameter "id" dan "nama" digunakan untuk menginisialisasi objek Karyawan baru. Pertama, objek Karyawan baru dibuat dengan nilai ID dan nama yang diberikan, lalu ditambahkan ke ArrayList "arrayKaryawan." Selanjutnya, dibuat query SQL INSERT yang menyisipkan data karyawan baru ke dalam tabel "karyawan" dengan menggunakan nilai "idKaryawan" dan "namaKaryawan" dari objek karyawanBaru. Terakhir, query SQL dieksekusi dengan metode "executeUpdateQuery" dari objek database.
+1. Kelas Karyawan
+   
+![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/9a5f811b-f9ba-4526-b1ed-d88bd42faf4c)
 
-   Metode "readKaryawan" digunakan untuk membaca data karyawan dari database dan menyimpannya dalam ArrayList "arrayKaryawan." Pertama, isi "arrayKaryawan" dibersihkan dengan "arrayKaryawan.clear()" agar dapat diganti dengan data yang baru dibaca. Kemudian, query SQL SELECT digunakan untuk mengambil semua data dari tabel "karyawan." Hasil query dieksekusi dari objek "DB" dan disimpan dalam objek ResultSet "RS." Program kemudian membaca baris hasil query satu per satu dengan loop "while (rs.next())." Setiap baris data, yaitu ID dan nama, diambil dari hasil query. Objek Karyawan baru dibuat dengan data ini dan ditambahkan ke ArrayList "arrayKaryawan." Terakhir, metode ini mengembalikan "arrayKaryawan" yang berisi data karyawan dari database.
-     
-   - Pelanggan
-  ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/ec5b52cc-038b-459c-8320-599542687cd5)
+Kelas "Karyawan" adalah tempat semua informasi terkait karyawan disimpan. Dalam kelas ini, terdapat dua atribut (variabel anggota), yaitu "idKaryawan" dan "namaKaryawan," yang digunakan untuk menyimpan data karyawan. Kedua atribut ini berjenis String, sehingga dapat menyimpan teks. Terdapat juga atribut statis bernama "arrayKaryawan" yang berjenis ArrayList. Atribut ini digunakan untuk menyimpan daftar objek karyawan. Atribut statis berarti bahwa semua objek kelas Karyawan menggunakan salinan yang sama dari "arrayKaryawan," sehingga semua objek dapat mengakses daftar karyawan yang sama. Terdapat konstruktor dalam kelas ini, yaitu "Karyawan," yang digunakan untuk membuat objek karyawan. Konstruktor ini menerima dua parameter, yaitu "idKaryawan" dan "namaKaryawan," yang digunakan untuk menginisialisasi atribut karyawan terkait.
+
+Kelas ini juga memiliki dua metode:
+1. "getIdKaryawan()" digunakan untuk mendapatkan nilai dari atribut "idKaryawan" dari objek karyawan.
+2. "getNamaKaryawan()" digunakan untuk mendapatkan nilai dari atribut "namaKaryawan" dari objek karyawan.
+
+![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/ca11781e-160f-4463-aeb7-81ab7fe64005)
+
+Metode "insertKaryawan" digunakan untuk memasukkan data karyawan baru ke dalam database. Parameter "id" dan "nama" digunakan untuk menginisialisasi objek Karyawan baru. Pertama, objek Karyawan baru dibuat dengan nilai ID dan nama yang diberikan, lalu ditambahkan ke ArrayList "arrayKaryawan." Selanjutnya, dibuat query SQL INSERT yang menyisipkan data karyawan baru ke dalam tabel "karyawan" dengan menggunakan nilai "idKaryawan" dan "namaKaryawan" dari objek karyawanBaru. Terakhir, query SQL dieksekusi dengan metode "executeUpdateQuery" dari objek database.
+
+Metode "readKaryawan" digunakan untuk membaca data karyawan dari database dan menyimpannya dalam ArrayList "arrayKaryawan." Pertama, isi "arrayKaryawan" dibersihkan dengan "arrayKaryawan.clear()" agar dapat diganti dengan data yang baru dibaca. Kemudian, query SQL SELECT digunakan untuk mengambil semua data dari tabel "karyawan." Hasil query dieksekusi dari objek "DB" dan disimpan dalam objek ResultSet "RS." Program kemudian membaca baris hasil query satu per satu dengan loop "while (rs.next())." Setiap baris data, yaitu ID dan nama, diambil dari hasil query. Objek Karyawan baru dibuat dengan data ini dan ditambahkan ke ArrayList "arrayKaryawan." Terakhir, metode ini mengembalikan "arrayKaryawan" yang berisi data karyawan dari database.
+
+2. Kelas Pelanggan
+
+![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/ec5b52cc-038b-459c-8320-599542687cd5)
 
 Kelas "Pelanggan" adalah tempat untuk menyimpan informasi terkait pelanggan. Dalam kelas ini, terdapat dua atribut, yaitu "idPelanggan" dan "nama_pelanggan," yang digunakan untuk menyimpan data pelanggan. Kedua atribut ini berjenis String, sehingga dapat menyimpan teks.Terdapat juga atribut statis "db," yang adalah objek dari kelas "Database." Atribut ini digunakan untuk mengelola koneksi ke database dan berinteraksi dengan database. Atribut statis berarti bahwa semua objek kelas "Pelanggan" menggunakan salinan yang sama dari objek "db," sehingga semua objek dapat mengakses database yang sama. Kelas ini memiliki konstruktor "Pelanggan" yang digunakan untuk membuat objek pelanggan. Konstruktor ini menerima dua parameter, yaitu "idPelanggan" dan "nama_pelanggan," yang digunakan untuk menginisialisasi atribut pelanggan sesuai dengan nilai yang diberikan.
 
-   - Transaksi
+3. Kelas Transaksi
      
 ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/2e7a9785-9191-41a8-b123-36caa658d566)
 
@@ -54,9 +55,12 @@ Kelas "Pelanggan" adalah tempat untuk menyimpan informasi terkait pelanggan. Dal
 
 Kelas "Transaksi" digunakan untuk menyimpan informasi tentang transaksi. Ini mencakup ID transaksi, ID karyawan terlibat, ID pelanggan terlibat, ID barang terlibat, dan tanggal transaksi. Kelas ini memiliki variabel anggota dan metode yang memungkinkan akses dan penyimpanan data transaksi. Ada metode "insertTransaksi" yang memungkinkan penggunaan data transaksi untuk dimasukkan ke dalam database. Ini melibatkan pembuatan objek "Transaksi" dengan data yang diberikan, membuat pernyataan SQL untuk menyimpan data ini, dan menjalankannya menggunakan objek database. Keseluruhan, kelas "Transaksi" memfasilitasi manajemen data transaksi dan interaksi dengan database.
 
-   - Barang
+4. Kelas Barang
+   
 ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/90d3ef0e-d700-4a79-9fe5-ed15b68f8551)
+
 ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/c7dd644d-f371-44c7-8980-c845b0403408)
+
 ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/2aa51a5f-2d40-408c-a473-9f58c37383c3)
 
 Program ini menggunakan Getter dan Setter untuk mengakses dan mengubah nilai variabel anggota seperti idBarang, namaBarang, dan HargaBarang. Ini memungkinkan manajemen data barang dengan lebih mudah.
@@ -69,8 +73,9 @@ Metode "deleteBarang" digunakan untuk menghapus data barang dari ArrayList dan d
 
 Metode "updateBarang" digunakan untuk memperbarui data barang berdasarkan ID dalam ArrayList dan database. Program loop melalui ArrayList "arrayBarang," mencari objek Barang dengan ID yang sesuai, memperbarui nilai nama dan harga barang, dan menjalankan query SQL untuk memperbarui data barang dalam database. Semua ini memudahkan manajemen data barang.
 
-   - Makanan
-   ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/f7a4b3f7-a0ed-4b2e-8a3a-036834ed8f19)
+5. Kelas Makanan
+
+![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/f7a4b3f7-a0ed-4b2e-8a3a-036834ed8f19)
 
 Metode "readMakanan" membaca data makanan dari database dan mengembalikannya sebagai ArrayList. Metode membersihkan ArrayList "arrayMakanan," menjalankan query SQL dengan INNER JOIN antara tabel "Barang" dan "Makanan" untuk menggabungkan data, lalu membuat objek "Makanan" untuk setiap baris hasil query dan menambahkannya ke "arrayMakanan." Hasilnya adalah ArrayList yang berisi data makanan yang kemudian dikembalikan.
 
@@ -82,7 +87,8 @@ Metode "deleteMakanan" digunakan untuk menghapus data makanan berdasarkan ID bar
 
 Metode "updateMakanan" digunakan untuk mengupdate data makanan berdasarkan ID barang dalam "arrayMakanan" dan di database. Metode mencari objek Makanan dengan ID barang yang sesuai dalam "arrayMakanan," memperbarui nilai atribut tanggal kadaluarsa dan asal produk, dan menjalankan query SQL untuk memperbarui data makanan di tabel "Makanan" di database berdasarkan nilai baru pada objek Makanan.
      
-   - NonMakanan
+6. Kelas NonMakanan
+
 ![image](https://github.com/shafaaz11/Capstone-Project-Kelompok-5/assets/126893861/4d6fc7ae-1621-47fb-ad0f-5731e34cb4ee)
 
 Metode "readNonMakanan" digunakan untuk membaca data non-makanan dari database dan mengembalikkannya dalam bentuk ArrayList. Metode membersihkan ArrayList "arrayNonMakanan," menjalankan query SQL dengan INNER JOIN antara tabel "Barang" dan "non_makanan" untuk menggabungkan data, dan membuat objek "NonMakanan" untuk setiap baris hasil query. Objek-objek ini ditambahkan ke ArrayList "arrayNonMakanan," dan hasilnya dikembalikan.
